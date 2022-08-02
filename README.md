@@ -12,6 +12,10 @@ Repositório utilizado para guardar as configurações das ferramentas utilizado
 - utiliza https://github.com/junegunn/vim-plug
 - tema https://github.com/sonph/onehalf
 
+## neovim
+
+- https://github.com/neovim/neovim/releases/download/v0.7.2/nvim-linux64.deb
+
 ## tmux
 
 - utiliza https://github.com/powerline/powerline
@@ -22,7 +26,17 @@ Repositório utilizado para guardar as configurações das ferramentas utilizado
 
 - *bat* cat com syntax highlithing https://github.com/sharkdp/bat
 - *autojump* utilitário para navegar por diretórios https://github.com/wting/autojump
+- *stow* copia o conteúdo de um dieretório em outro gerando links simbólicos
 
 ## TODO
 - descrever melhor a instalação e configuração das ferramentas
 - tornar background do thema do vim transparente
+
+## aplicar as configs
+
+Usando o stow https://github.com/aspiers/stow/issues/11
+
+```sh
+r=$(realpath $HOME/.config) && target=${r%/*} || echo "Error!!"
+stow -vS nvim $target
+```
