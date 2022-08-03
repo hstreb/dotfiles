@@ -14,6 +14,7 @@ return packer.startup(function()
     use "moll/vim-bbye"                                             --> close tabs command
     use "akinsho/toggleterm.nvim"                                   --> toggle a terminal
     use "folke/which-key.nvim"                                      --> display key mappings
+    use "nvim-telescope/telescope.nvim"                             --> finder for neovim
 
     -- colorschemes
     use "EdenEast/nightfox.nvim"                                    --> nightfox colorscheme
