@@ -18,3 +18,7 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 
+-- Move text up and down
+keymap("x", "<A-j>", ":move '>+1<cr>gv-gv", opts)
+keymap("x", "<A-k>", ":move '<-2<cr>gv-gv", opts)
+

@@ -15,6 +15,11 @@ return packer.startup(function()
     use "akinsho/toggleterm.nvim"                                   --> toggle a terminal
     use "folke/which-key.nvim"                                      --> display key mappings
     use "nvim-telescope/telescope.nvim"                             --> finder for neovim
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    }
+    use "lewis6991/gitsigns.nvim"                                   --> git integration
 
     -- colorschemes
     use "EdenEast/nightfox.nvim"                                    --> nightfox colorscheme

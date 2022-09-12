@@ -45,7 +45,6 @@ sudo make install
 
 ## TODO
 
-- telescope
 - lsp
 - cmp
 - treesitter
