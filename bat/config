@@ -1,4 +1,4 @@
---theme="OneHalfDark"
+--theme="ansi"
 --style=plain
 --paging=never
 --pager="less --RAW-CONTROL-CHARS --quit-if-one-screen --mouse"
