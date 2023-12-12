@@ -1,15 +1,13 @@
-# configurações do nvim
+# nvim
 
-Usa o plugin manager https://github.com/wbthomason/packer.nvim e lua para configuração.
+Neovim é um fork do vim com foco em extensibilidade e usabilidade https://github.com/neovim/neovim.
 
-## Instalar o nvim
+## Instalação 
 
 ```sh
-git clone https://github.com/neovim/neovim.git
-cd neovim
-git checkout release-0.7
-make CMAKE_BUILD_TYPE=Release
-sudo make install
+wget https://github.com/neovim/neovim/releases/download/v0.9.4/nvim-linux64.tar.gz
+tar -svf nvim-linux.tar.gz -C ~/tools
+ln -s ~/tools/nvim-linux64/bin/nvim ~/.local/bin/nvim
 ```
 
 ## dependências
@@ -45,7 +43,4 @@ sudo make install
 
 ## TODO
 
-- lsp
-- cmp
-- treesitter
-- comment
+- dap debug

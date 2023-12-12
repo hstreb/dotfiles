@@ -2,41 +2,11 @@
 
 Repositório utilizado para guardar as configurações das ferramentas utilizados em meu PC.
 
-## bash
+## ferramentas
 
-- tema https://github.com/magicmonty/bash-git-prompt
-- color scheme for gnome terminal https://github.com/Mayccoll/Gogh
-
-## vim
-
-- utiliza https://github.com/junegunn/vim-plug
-- tema https://github.com/sonph/onehalf
-
-## neovim
-
-- https://github.com/neovim/neovim/releases/download/v0.7.2/nvim-linux64.deb
-
-## tmux
-
-- utiliza https://github.com/powerline/powerline
-- utiliza https://github.com/tmux-plugins/tpm
-- adicionar fonte para renderizar corretamento o powerline `sudo apt install fonts-powerline`
-
-## utilitarios
-
+- [alacritty](./alacritty/.config/alacritty) - emulador de terminal rápido que usa OpenGL
+- [nvim](./nvim/.config/nvim) - editor de texto
+- [tmux](./tmux) - terminal multiplexer
 - *bat* cat com syntax highlithing https://github.com/sharkdp/bat
 - *autojump* utilitário para navegar por diretórios https://github.com/wting/autojump
-- *stow* copia o conteúdo de um dieretório em outro gerando links simbólicos
 
-## TODO
-- descrever melhor a instalação e configuração das ferramentas
-- tornar background do thema do vim transparente
-
-## aplicar as configs
-
-Usando o stow https://github.com/aspiers/stow/issues/11
-
-```sh
-r=$(realpath $HOME/.config) && target=${r%/*} || echo "Error!!"
-stow -vS nvim $target
-```
