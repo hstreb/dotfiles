@@ -1,4 +1,5 @@
 local opt = vim.opt
+local o = vim.o
 
 -- Tab / Indentation
 opt.tabstop = 2
@@ -41,3 +42,7 @@ opt.clipboard:append("unnamedplus")
 opt.modifiable = true
 opt.encoding = "UTF-8"
 opt.showmode = false
+o.foldcolumn = '1'
+o.foldlevel = 99
+o.foldlevelstart = 99
+o.foldenable = true

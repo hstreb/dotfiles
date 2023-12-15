@@ -20,12 +20,12 @@ keymap("n", "<leader>m", ":NvimTreeFocus<CR>", opts)
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Close buffers
-keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "<S-q>", "<cmd>bdelete<CR>", opts)
 keymap("n", "<leader>q", ":q<CR>", opts)
 
 -- Move text up and down
 keymap("x", "<A-j>", ":move '>+1<cr>gv-gv", opts)
-keymap("x", "<A-k>", ":move '<-2<cr>gv-gv", opts)
+keymap("x", "<A-k>", ":move '<-2<cr>gv-gv<CR>", opts)
 
 -- Window Management
 keymap("n", "<leader>sv", ":vsplit<CR>", opts)
