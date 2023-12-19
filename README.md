@@ -1,4 +1,4 @@
-# Dot-files
+# Dotfiles
 
 Repositório utilizado para guardar as configurações das ferramentas utilizados em meu PC.
 
