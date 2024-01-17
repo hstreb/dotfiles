@@ -6,11 +6,9 @@ end
 
 keymap("", "<Space>", "<Nop>", opts('Leader key'))
 
--- Window navigation
-keymap("n", "<C-h>", "<C-w>h", opts())
-keymap("n", "<C-j>", "<C-w>j", opts())
-keymap("n", "<C-k>", "<C-w>k", opts())
-keymap("n", "<C-l>", "<C-w>l", opts())
+-- Scroll page
+keymap("n", "<C-d>", "<C-d>zz", opts())
+keymap("n", "<C-u>", "<C-u>zz", opts())
 
 -- Buffer navigation
 keymap("n", "<S-l>", ":bnext<CR>", opts())
