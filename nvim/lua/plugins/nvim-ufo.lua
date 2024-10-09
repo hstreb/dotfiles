@@ -18,7 +18,7 @@ return {
     },
   },
   opts = {
-    filetype_exclude = { 'help', 'alpha', 'dashboard', 'neo-tree', 'Trouble', 'lazy', 'mason' },
+    filetype_exclude = { 'help', 'alpha', 'dashboard', 'neo-tree', 'lazy', 'mason' },
   },
   config = function()
     local capabilities = vim.lsp.protocol.make_client_capabilities()
@@ -32,6 +32,9 @@ return {
         capabilities = capabilities
       })
     end
-    require('ufo').setup()
+    require('ufo').setup({
+      close_fold_kinds_for_ft = { default = { "comment", "imports" } }
+      -- close_fold_kinds = { "comment", "imports" },
+    })
   end
 }

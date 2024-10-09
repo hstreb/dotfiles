@@ -1,9 +1,7 @@
 local config = function()
-  local theme = require("lualine.themes.base16")
-
   require("lualine").setup({
     options = {
-      theme = theme,
+      theme = "auto",
       globalstatus = true,
       section_separators = "",
       component_separators = "",

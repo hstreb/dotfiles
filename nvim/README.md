@@ -2,10 +2,10 @@
 
 Neovim é um fork do vim com foco em extensibilidade e usabilidade https://github.com/neovim/neovim.
 
-## Instalação 
+## Instalação do nvim
 
 ```sh
-wget https://github.com/neovim/neovim/releases/download/v0.9.4/nvim-linux64.tar.gz
+wget https://github.com/neovim/neovim/releases/download/v0.10.2/nvim-linux64.tar.gz
 tar -svf nvim-linux.tar.gz -C ~/tools
 ln -s ~/tools/nvim-linux64/bin/nvim ~/.local/bin/nvim
 ```
@@ -37,10 +37,14 @@ ln -s ~/tools/nvim-linux64/bin/nvim ~/.local/bin/nvim
 
 - fonte **JetBrains Mono Regular Nerd Font** https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf
 
-## Plugins
+## aplicar configurações
 
-- 
+- clone do repositorio
+```sh
+git clone https://github.com/hstreb/dotfiles.git ~/.dotfiles
+```
 
-## TODO
-
-- dap debug
+- aplicar configs do nvim
+```sh
+ln -s ~/.dotfiles/nvim ~/.config
+```
