@@ -11,3 +11,11 @@ Repositório utilizado para guardar as configurações das ferramentas utilizado
 - *bat* cat com syntax highlithing https://github.com/sharkdp/bat
 - *autojump* utilitário para navegar por diretórios https://github.com/wting/autojump
 
+## configurar
+
+- stylua
+
+```shell
+ls -s ~/.dotfiles/stylua/stylua.toml ~/.config/
+```
+
