@@ -1,6 +1,6 @@
 return {
-  "lukas-reineke/indent-blankline.nvim",
-  event = "BufRead",
-  main = "ibl",
+  'lukas-reineke/indent-blankline.nvim',
+  event = 'BufRead',
+  main = 'ibl',
   opts = {},
 }

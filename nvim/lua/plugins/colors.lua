@@ -1,26 +1,27 @@
 return {
   {
-    "rose-pine/neovim",
-    name = "rose-pine",
+    'rose-pine/neovim',
+    name = 'rose-pine',
     lazy = false,
+    priority = 1000,
     config = function()
-      vim.cmd.colorscheme("rose-pine")
-    end
+      vim.cmd.colorscheme 'rose-pine'
+    end,
   },
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    'catppuccin/nvim',
+    name = 'catppuccin',
     lazy = false,
-    priority = 1000
+    priority = 1000,
   },
   {
-    "rebelot/kanagawa.nvim",
+    'rebelot/kanagawa.nvim',
     lazy = false,
     priority = 999,
   },
   {
-    "EdenEast/nightfox.nvim",
-    lazy = false
+    'EdenEast/nightfox.nvim',
+    lazy = false,
   },
   {
     'AlexvZyl/nordic.nvim',
@@ -36,20 +37,26 @@ return {
     end,
   },
   {
-    "sho-87/kanagawa-paper.nvim",
+    'sho-87/kanagawa-paper.nvim',
     lazy = false,
     priority = 1000,
     opts = {},
   },
   {
-    "folke/tokyonight.nvim",
+    'folke/tokyonight.nvim',
     lazy = false,
     priority = 1000,
     opts = {},
   },
   {
-    "ramojus/mellifluous.nvim",
+    'ramojus/mellifluous.nvim',
     lazy = false,
     priority = 999,
-  }
+  },
+  {
+    'killitar/obscure.nvim',
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
