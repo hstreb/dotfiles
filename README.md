@@ -57,3 +57,13 @@ Repositório utilizado para guardar as configurações das ferramentas utilizado
     ```shell
     ln -s ~/.dotfiles/bat ~/.config/bat
     ```
+
+# TODO
+
+- melhorar documentação
+    - explicar instalação de cada ferramenta e suas dependências
+- nvim
+    - adicionar suporte para debug
+    - adicionar suporte para testes
+- tmux
+    - ajustar copy and paste
