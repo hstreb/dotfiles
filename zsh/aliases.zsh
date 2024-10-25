@@ -18,3 +18,5 @@ alias cat='batcat'
 alias pbcopy='xclip -selection clipboardboard'
 
 alias v=nvim
+alias vi=nvim
+alias j!=jbang
