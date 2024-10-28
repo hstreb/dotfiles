@@ -16,7 +16,6 @@ return {
     formatters_by_ft = {
       bash = { 'beautysh' },
       html = { 'htmlbeautifier' },
-      java = { 'uncrustify' },
       javascript = { { 'prettierd', 'prettier', stop_after_first = true } },
       javascriptreact = { { 'prettierd', 'prettier', stop_after_first = true } },
       json = { { 'prettierd', 'prettier', stop_after_first = true } },
