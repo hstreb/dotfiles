@@ -46,3 +46,6 @@ vim.api.nvim_set_keymap('v', '<C-_>', 'goc', { noremap = false })
 -- Stay in indent mode
 keymap('v', '>', '>gv', opts())
 keymap('v', '<', '<gv', opts())
+
+-- Clear highlights on search when pressing <Esc> in normal mode
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')

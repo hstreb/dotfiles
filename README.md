@@ -8,8 +8,8 @@ Repositório utilizado para guardar as configurações das ferramentas utilizado
 - [nvim](./nvim/.config/nvim) - editor de texto
 - [tmux](./tmux/.config/tmux) - terminal multiplexer
 - [zsh](./zsh/) - shell iterativo
-- *bat* cat com syntax highlithing https://github.com/sharkdp/bat
-- *autojump* utilitário para navegar por diretórios https://github.com/wting/autojump
+- [bat](https://github.com/sharkdp/bat) - cat com syntax highlighting
+- [autojump](https://github.com/wting/autojump) utilitário para navegar por diretórios 
 
 ## Configurar
 

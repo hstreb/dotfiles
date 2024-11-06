@@ -3,16 +3,16 @@ return {
     'rose-pine/neovim',
     name = 'rose-pine',
     lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'rose-pine'
-    end,
+    priority = 999,
   },
   {
     'catppuccin/nvim',
     name = 'catppuccin',
     lazy = false,
-    priority = 1000,
+    priority = 999,
+    config = function()
+      vim.cmd.colorscheme 'catppuccin'
+    end,
   },
   {
     'rebelot/kanagawa.nvim',
@@ -22,30 +22,23 @@ return {
   {
     'EdenEast/nightfox.nvim',
     lazy = false,
+    priority = 999,
   },
   {
     'AlexvZyl/nordic.nvim',
     lazy = false,
-    priority = 1000,
-  },
-  {
-    'olivercederborg/poimandres.nvim',
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require('poimandres').setup()
-    end,
+    priority = 999,
   },
   {
     'sho-87/kanagawa-paper.nvim',
     lazy = false,
-    priority = 1000,
+    priority = 999,
     opts = {},
   },
   {
     'folke/tokyonight.nvim',
     lazy = false,
-    priority = 1000,
+    priority = 999,
     opts = {},
   },
   {
@@ -56,7 +49,12 @@ return {
   {
     'killitar/obscure.nvim',
     lazy = false,
-    priority = 1000,
+    priority = 999,
     opts = {},
+  },
+  {
+    'mhartington/oceanic-next',
+    lazy = false,
+    priority = 999,
   },
 }

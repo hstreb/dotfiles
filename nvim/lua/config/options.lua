@@ -47,6 +47,8 @@ o.foldcolumn = '1'
 o.foldlevel = 99
 o.foldlevelstart = 99
 o.foldenable = true
+o.spell = true
+o.spelllang = 'pt,en'
 
 -- ignore default themes
 opt.wildignore:append {
